@@ -8,6 +8,7 @@ namespace HelloWeb
     {
         public void Configure(IApplicationBuilder app)
         {
+            //addeded during testing
             app.Run(context =>
             {
                 return context.Response.WriteAsync("Hello World!");
