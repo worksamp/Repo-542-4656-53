@@ -6,6 +6,7 @@ namespace HelloWeb
 {
     public class Startup
     {
+        //added during testing
         public void Configure(IApplicationBuilder app)
         {
             app.Run(context =>
